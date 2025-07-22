@@ -1,0 +1,15 @@
+[project]
+name = "langgraph-aws-example"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "boto3>=1.39.10",
+    "braintrust>=0.1.8",
+    "braintrust-langchain>=0.0.2",
+    "langchain-aws>=0.2.28",
+    "langchain-core>=0.3.70",
+    "langgraph>=0.5.4",
+    "python-dotenv>=1.1.1",
+]
