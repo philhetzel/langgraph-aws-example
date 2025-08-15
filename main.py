@@ -15,11 +15,9 @@ from dotenv import load_dotenv
 import boto3
 from langchain_aws import ChatBedrock
 from langgraph.graph import StateGraph, END, START
-from braintrust import init_logger, Eval
-import braintrust
+from braintrust import Eval
 from braintrust_langchain import set_global_handler, BraintrustCallbackHandler
 from autoevals import EmbeddingSimilarity, ExactMatch
-import openai
 
 load_dotenv()
 
